@@ -4,7 +4,7 @@ const FrontImage = () => {
   return (
     <img
       className="FrontImage"
-      src={require("./../../images/Seth_Godin_in_2009 (1).jpg")}
+      src={require("./../../images/FrontImage.png")}
       alt="Seth Godin smiling."
     />
   );

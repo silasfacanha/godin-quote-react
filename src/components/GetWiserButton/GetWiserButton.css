@@ -1,0 +1,11 @@
+.GetWiserButton {
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-style: solid;
+  width: 50%;
+  margin: auto;
+}
+.GetWiserButton:hover {
+  background-color: mediumvioletred;
+}

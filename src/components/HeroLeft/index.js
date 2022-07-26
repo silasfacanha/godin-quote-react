@@ -1,3 +1,4 @@
+import "./HeroLeft.css";
 import Header from "../Header";
 import GetWiserButton from "../GetWiserButton";
 
