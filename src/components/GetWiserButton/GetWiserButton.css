@@ -6,6 +6,13 @@
   width: 50%;
   margin: auto;
 }
+
 .GetWiserButton:hover {
   background-color: mediumvioletred;
+}
+
+.GetWiserButtonSpecific {
+  text-decoration: none;
+  color: black;
+  padding: 20%;
 }

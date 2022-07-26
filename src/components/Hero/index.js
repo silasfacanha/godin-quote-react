@@ -4,10 +4,10 @@ import HeroLeft from "../HeroLeft";
 
 const Hero = () => {
   return (
-    <div className="Hero">
+    <section className="Hero">
       <HeroLeft />
       <FrontImage />
-    </div>
+    </section>
   );
 };
 

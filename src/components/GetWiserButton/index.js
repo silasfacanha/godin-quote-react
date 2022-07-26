@@ -1,9 +1,12 @@
+import QuoteArea from "../QuoteArea";
 import "./GetWiserButton.css";
 
 const GetWiserButton = () => {
   return (
     <div className="GetWiserButton">
-      <a> Get Wiser</a>
+      <a href="#QuoteArea" className="GetWiserButtonSpecific">
+        Get Wiser
+      </a>
     </div>
   );
 };
