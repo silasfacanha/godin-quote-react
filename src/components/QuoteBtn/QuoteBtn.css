@@ -1,0 +1,10 @@
+.QuoteBtn {
+  border: solid;
+  margin-left: 1%;
+  font-weight: bold;
+  cursor: pointer;
+}
+.QuoteBtn:hover {
+  background-color: #ee346e;
+  border: none;
+}

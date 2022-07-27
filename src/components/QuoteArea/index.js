@@ -1,4 +1,5 @@
 import QuoteSpace from "../QuoteSpace";
+import SetofQuoteBtns from "../SetofQuoteBtns";
 import SetofSubjects from "../SetofSubjects";
 
 import "./QuoteArea.css";
@@ -9,6 +10,7 @@ const QuoteArea = () => {
       <h1 className="QuoteAreaH1"> Which Subject Triggers your Curiosity?</h1>
       <SetofSubjects />
       <QuoteSpace />
+      <SetofQuoteBtns />
     </section>
   );
 };
