@@ -9,6 +9,7 @@ const SetofSubjects = () => {
       <SubjectQuote subject="Work" />
       <SubjectQuote subject="Ideas" />
       <SubjectQuote subject="Life" />
+      <SubjectQuote subject="Any" />
     </div>
   );
 };

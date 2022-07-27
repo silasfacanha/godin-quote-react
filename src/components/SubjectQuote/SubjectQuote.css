@@ -1,0 +1,10 @@
+.SubjectQuote {
+  border: solid;
+  margin: 2rem 2rem 2rem 2rem;
+  padding: 1rem 1rem 1rem 1rem;
+  font-weight: bold;
+}
+
+.SubjectQuote:hover {
+  background-color: #81147d;
+}
