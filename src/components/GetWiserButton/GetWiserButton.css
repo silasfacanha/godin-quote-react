@@ -5,14 +5,16 @@
   border-style: solid;
   width: 50%;
   margin: auto;
+  cursor: pointer;
 }
 
 .GetWiserButton:hover {
   background-color: #ff366a;
+  border: none;
 }
 
 .GetWiserButtonSpecific {
   text-decoration: none;
   color: black;
-  padding: 20%;
+  padding: 30%;
 }

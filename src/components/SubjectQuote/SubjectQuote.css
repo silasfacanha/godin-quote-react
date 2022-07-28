@@ -7,4 +7,6 @@
 
 .SubjectQuote:hover {
   background-color: #81147d;
+  border: none;
+  cursor: pointer;
 }
