@@ -6,5 +6,5 @@
 }
 .QuoteBtn:hover {
   background-color: #ee346e;
-  border: none;
+  border-color: transparent;
 }

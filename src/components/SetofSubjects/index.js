@@ -4,12 +4,24 @@ import "./SetofSubjects.css";
 const SetofSubjects = () => {
   return (
     <div className="SetofSubjects">
-      <SubjectQuote subject="Culture" />
-      <SubjectQuote subject="Marketing" />
-      <SubjectQuote subject="Work" />
-      <SubjectQuote subject="Ideas" />
-      <SubjectQuote subject="Life" />
-      <SubjectQuote subject="Any" />
+      <div>
+        <SubjectQuote subject="Culture" />
+      </div>
+      <div>
+        <SubjectQuote subject="Marketing" />
+      </div>
+      <div>
+        <SubjectQuote subject="Work" />
+      </div>
+      <div>
+        <SubjectQuote subject="Ideas" />
+      </div>
+      <div>
+        <SubjectQuote subject="Life" />
+      </div>
+      <div>
+        <SubjectQuote subject="Any" />
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@
 
 .GetWiserButton:hover {
   background-color: #ff366a;
-  border: none;
+  border-color: transparent;
 }
 
 .GetWiserButtonSpecific {
