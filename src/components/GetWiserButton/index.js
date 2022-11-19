@@ -1,4 +1,5 @@
-import QuoteArea from "../QuoteArea";
+import React from "react";
+
 import "./GetWiserButton.css";
 
 const GetWiserButton = () => {

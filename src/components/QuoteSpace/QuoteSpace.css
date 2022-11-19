@@ -1,6 +1,7 @@
 .QuoteSpace {
-  margin: 25vh 10vh 1vh 10vh;
+  margin: 15vh 10vh 1vh 10vh;
   border: solid;
-
-  height: 20vh;
+  height: 30vh;
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
 }

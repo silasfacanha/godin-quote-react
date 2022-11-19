@@ -3,6 +3,8 @@
   margin-left: 1%;
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
 }
 .QuoteBtn:hover {
   background-color: #ee346e;

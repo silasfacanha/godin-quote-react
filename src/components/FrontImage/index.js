@@ -1,3 +1,4 @@
+import React from "react";
 import "./FrontImage.css";
 
 const FrontImage = () => {
