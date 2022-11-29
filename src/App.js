@@ -50,7 +50,7 @@ function App() {
           <SubjectQuote
             subject="Culture"
             onClick={() => {
-              quoteAPI("http://www.godinapi.online:3000/cultureQuote");
+              quoteAPI("https://godin-api-express.herokuapp.com/cultureQuote");
             }}
           />
         </div>
@@ -59,7 +59,9 @@ function App() {
           <SubjectQuote
             subject="Marketing"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/marketingQuote");
+              quoteAPI(
+                "https://godin-api-express.herokuapp.com/marketingQuote"
+              );
             }}
           />
         </div>
@@ -67,7 +69,7 @@ function App() {
           <SubjectQuote
             subject="Work"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/workQuote");
+              quoteAPI("https://godin-api-express.herokuapp.com/workQuote");
             }}
           />
         </div>
@@ -75,7 +77,7 @@ function App() {
           <SubjectQuote
             subject="Ideas"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/ideasQuote");
+              quoteAPI("https://godin-api-express.herokuapp.com/ideasQuote");
             }}
           />
         </div>
@@ -83,7 +85,7 @@ function App() {
           <SubjectQuote
             subject="Life"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/lifeQuote");
+              quoteAPI("https://godin-api-express.herokuapp.com/lifeQuote");
             }}
           />
         </div>
@@ -91,7 +93,7 @@ function App() {
           <SubjectQuote
             subject="Any"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/randomQuote");
+              quoteAPI("https://godin-api-express.herokuapp.com/randomQuote");
             }}
           />
         </div>
