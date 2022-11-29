@@ -50,7 +50,7 @@ function App() {
           <SubjectQuote
             subject="Culture"
             onClick={() => {
-              quoteAPI("www.godinapi.online:3000/cultureQuote");
+              quoteAPI("http://www.godinapi.online:3000/cultureQuote");
             }}
           />
         </div>
