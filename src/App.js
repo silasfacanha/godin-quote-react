@@ -32,10 +32,6 @@ function App() {
     }
   };
 
-  /*useEffect(() => {
-    quoteAPI();
-  });*/
-
   let quoteSourceandAuthor = `${quote}  ${source}${", "}${year}`;
   const { speak } = useSpeechSynthesis();
   const handleListenClick = () => {
@@ -54,7 +50,7 @@ function App() {
           <SubjectQuote
             subject="Culture"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/cultureQuote");
+              quoteAPI("www.godinapi.online:3000/cultureQuote");
             }}
           />
         </div>
@@ -63,9 +59,7 @@ function App() {
           <SubjectQuote
             subject="Marketing"
             onClick={() => {
-              quoteAPI(
-                "https://godin-api-express.herokuapp.com/marketingQuote"
-              );
+              quoteAPI("www.godinapi.online:3000/marketingQuote");
             }}
           />
         </div>
@@ -73,7 +67,7 @@ function App() {
           <SubjectQuote
             subject="Work"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/workQuote");
+              quoteAPI("www.godinapi.online:3000/workQuote");
             }}
           />
         </div>
@@ -81,7 +75,7 @@ function App() {
           <SubjectQuote
             subject="Ideas"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/ideasQuote");
+              quoteAPI("www.godinapi.online:3000/ideasQuote");
             }}
           />
         </div>
@@ -89,7 +83,7 @@ function App() {
           <SubjectQuote
             subject="Life"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/lifeQuote");
+              quoteAPI("www.godinapi.online:3000/lifeQuote");
             }}
           />
         </div>
@@ -97,7 +91,7 @@ function App() {
           <SubjectQuote
             subject="Any"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/randomQuote");
+              quoteAPI("www.godinapi.online:3000/randomQuote");
             }}
           />
         </div>
