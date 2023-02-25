@@ -8,7 +8,7 @@ import QuoteBtn from "./components/QuoteBtn";
 import SubjectQuote from "./components/SubjectQuote";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { useSpeechSynthesis } from "react-speech-kit";
-import { ToastContainer, toast } from "react-toastify";
+
 function App() {
   const [quote, setQuote] = useState("");
   const [source, setSource] = useState("");
@@ -43,14 +43,14 @@ function App() {
       <Hero />
       <QuoteArea />
       <QuoteSpace>
-        {quote} {source} {year}
+        {quote} <b>{source}</b> {year}
       </QuoteSpace>
       <div className="SetofSubjects">
         <div>
           <SubjectQuote
             subject="Culture"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/cultureQuote");
+              quoteAPI("https://godinapi.onrender.com/cultureQuote");
             }}
           />
         </div>
@@ -59,9 +59,7 @@ function App() {
           <SubjectQuote
             subject="Marketing"
             onClick={() => {
-              quoteAPI(
-                "https://godin-api-express.herokuapp.com/marketingQuote"
-              );
+              quoteAPI("https://godinapi.onrender.com/marketingQuote");
             }}
           />
         </div>
@@ -69,7 +67,7 @@ function App() {
           <SubjectQuote
             subject="Work"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/workQuote");
+              quoteAPI("https://godinapi.onrender.com/workQuote");
             }}
           />
         </div>
@@ -77,7 +75,7 @@ function App() {
           <SubjectQuote
             subject="Ideas"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/ideasQuote");
+              quoteAPI("https://godinapi.onrender.com/ideasQuote");
             }}
           />
         </div>
@@ -85,7 +83,7 @@ function App() {
           <SubjectQuote
             subject="Life"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/lifeQuote");
+              quoteAPI("https://godinapi.onrender.com/lifeQuote");
             }}
           />
         </div>
@@ -93,7 +91,7 @@ function App() {
           <SubjectQuote
             subject="Any"
             onClick={() => {
-              quoteAPI("https://godin-api-express.herokuapp.com/randomQuote");
+              quoteAPI("https://godinapi.onrender.com/randomQuote");
             }}
           />
         </div>
@@ -101,7 +99,7 @@ function App() {
 
       <div className="SetofQuoteBtns">
         <CopyToClipboard text={quoteSourceandAuthor}>
-          <QuoteBtn action="Copy" onClick={toast("Copied Quote")} />
+          <QuoteBtn action="Copy" />
         </CopyToClipboard>
 
         <QuoteBtn
